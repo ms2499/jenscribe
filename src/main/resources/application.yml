@@ -1,0 +1,27 @@
+server:
+  tomcat:
+    uri-encoding: UTF-8
+  servlet:
+    encoding:
+      charset: UTF-8
+      enabled: true
+      force: true
+    register-default-servlet: true
+  #port: 9234
+  port: 9090
+
+spring:
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
+    encoding: UTF-8
+    mode: HTML
+    cache: false
+  mvc:
+    static-path-pattern: /static/**
+  #    converters:
+  #      preferred-json-mapper: gson
+  resources:
+    static-locations: classpath:/static/
+
+XmlFilePath: /EnsFilesXml.xml

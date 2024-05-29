@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--此文件需跟JAVA執行檔同目錄-->
+<EnscribeFiles>
+    <FUMCOM-R>
+        <COM-PK head="主鍵資料欄">
+            <COM-EXCH-ID head="期交所代碼"/>
+            <COM-COMMODITY-ID head="商品標的"/>
+        </COM-PK>
+        <COM-NAME head="商品中文名稱"/>
+        <COM-ENGLISH-NAME head="商品英文名稱"/>
+        <COM-ALIAS head="商品簡稱"/>
+        <COM-COUNTRY head="交易國別"/>
+        <COM-CURRENCY head="交易幣別"/>
+        <COM-BASIC-DATA head="商品交易基本資料">
+            <COM-CONTRACT-SIZE head="合約規格(契約價金單位)"/>
+            <COM-UNIT head="合約單位"/>
+            <COM-TRADE-FLAG head="可當沖"/>
+            <COM-BASE-UNIT head="合約基本買賣單位"/>
+            <COM-MIN-FLUCT head="最小跳動單價"/>
+            <COM-MIN-FLUCT-UNIT head="最小跳動單位"/>
+            <COM-FTSI-MAKER-FLAG head="可承作造市商品"/>
+            <COM-TICK-AMT head="契約價值"/>
+            <COM-BASE-PRICE head="升降單位(最小跳動點)"/>
+            <COM-RULE head="漲跌幅計算方式"/>
+            <COM-STATUS-FLAG head="交易狀態碼"/>
+            <COM-DAILY-LIMIT head="漲跌幅金額/比例"/>
+            <COM-LIMIT-QTY head="下單最大數量"/>
+            <COM-NON-COVER-QTY head="自營未平倉上限數量"/>
+            <COM-SUBMIT-QTY head="自營未平倉提報數量"/>
+            <COM-WARN-QTY head="自營未平倉預警數量"/>
+            <COM-NON-COVER-QTY-P head="個人未平倉上限數量"/>
+            <COM-SUBMIT-QTY-P head="個人未平倉提報數量"/>
+            <COM-WARN-QTY-P head="個人未平倉預警數量"/>
+            <COM-BEGIN-TRADING-HOUR head="本地開始交易時間"/>
+            <COM-END-TRADING-HOUR head="本地結束交易時間"/>
+        </COM-BASIC-DATA>
+        <COM-TX-TAX-R head="交易稅率"/>
+        <COM-TX-ACCOUNT-NO head="交易稅會計科目"/>
+        <COM-RETURN-TIME head="本地保證金退回時間"/>
+        <COM-MAKER-FLAG head="造市者可否承作該商品"/>
+        <COM-STOP-FLAG head="暫停交易碼"/>
+        <COM-OPER-USER head="異動人員"/>
+        <COM-OPER-DATE head="異動日期"/>
+        <COM-OPER-TIME head="異動時間"/>
+        <COM-PROG head="入檔程式編號"/>
+        <COM-DECIMAL-POINT head="價位小數點位數"/>
+        <COM-PROD-KING head="契約種類"/>
+        <COM-NON-COVER-QTY-L head="法人未平倉上限數量"/>
+        <COM-SUBMIT-QTY-L head="法人未平倉提報數量"/>
+        <COM-WARN-QTY-L head="法人未平倉預警數量"/>
+        <COM-UP-FEE-KIND head="上手特定費用分類"/>
+        <COM-AK5 head="COM-AK5">
+            <COM-FEE-KIND head="投資人特定費用分類"/>
+        </COM-AK5>
+        <COM-DN-FEE-KIND head="下手特定費用分類"/>
+        <COM-AK1 head="COM-AK1">
+            <COM-FU-COMMODITY-ID-1 head="選擇權對應期貨商品代號"/>
+        </COM-AK1>
+        <COM-FU-FACTOR head="選擇權對應期貨商品倍數"/>
+        <COM-INI-FEE head="每口費用初估"/>
+        <COM-NON-COVER-QTY-M head="造市者未平倉上限數量"/>
+        <COM-SUBMIT-QTY-M head="造市者未平倉提報數量"/>
+        <COM-WARN-QTY-M head="造市者平倉預警數量"/>
+        <COM-PRE-CONTRACT-SIZE head="契約調整前合約規格數"/>
+        <COM-STRIKE-FACTOR head="履約價換算乘數"/>
+        <COM-PRE-COMMODITY-ID head="契約調整前商品代號"/>
+        <COM-RANGE head="放寬至漲跌幅度階段"/>
+        <COM-PROMPT-TAX-R head="交割稅率"/>
+        <COM-PRICE-FACTOR head="價格換算乘數"/>
+        <COM-MONTH-NC-QTY head="當月未平倉上限數量"/>
+        <COM-FEE-CURRENCY head="初估手續費幣別"/>
+        <COM-SPAN-GROUP-ID head="SPAN群組代號"/>
+        <COM-AK2 head="COM-AK2">
+            <COM-SPAN-COMM-ID head="SPAN商品代號"/>
+        </COM-AK2>
+        <COM-RETURN-TIME-L head="本地保證金退回時間(最後交易日)"/>
+        <COM-MONTH-NC-QTY-S head="當月未平倉上限數量-自營"/>
+        <COM-MONTH-NC-QTY-P head="交割月未平倉上限數量-自營"/>
+        <COM-DTR-STOP-TIME head="停止當沖時間"/>
+        <COM-DTR-STOP-TIME-L head="停止當沖時間(最後交易日)"/>
+        <COM-AK3 head="COM-AK3">
+            <COM-STOCK-NO-3 head="對應證券代號"/>
+        </COM-AK3>
+        <COM-NOT-HEDGE-FLAG head="避險分戶不可承作的商品"/>
+        <COM-CASH-DIVIDEND head="股票期貨配息金額"/>
+        <COM-HEDGE-STATUS-FLAG head="避險分戶不可新倉(Y)"/>
+        <COM-BLOCK-TRADE-FLAG head="可否鉅額交易(Y)"/>
+        <COM-BLOCK-TRADE-QTY head="鉅額最低申報量"/>
+        <COM-EXPIRY-TYPE head="到期別"/>
+        <COM-ETF-FLAG head="是否為ETF(Y)"/>
+        <COM-AK4 head="COM-AK4">
+            <COM-MARKET-CLS-GROUP head="收盤時間群組"/>
+        </COM-AK4>
+        <COM-AH-TRADE head="是否有盤後(Y)"/>
+        <COM-AH-KILL-FLAG head="盤後代為沖銷註記(Y)"/>
+        <COM-MTS-END-TIME head="該商品MTS截止時間"/>
+        <COM-AH-FTSI-MAKER-FLAG head="盤後-可承作造市商品"/>
+        <COM-AH-MAKER-FLAG head="盤後-造市者可否承作該商品"/>
+        <COM-AH-BLOCK-TRADE-FLAG head="盤後-可否鉅額交易(Y)"/>
+        <COM-END-SESSION head="最後交易截止時段"/>
+        <COM-US-TRACK-A head="一般美籍可下單商品"/>
+        <COM-US-TRACK-B head="QIB美籍可下單商品"/>
+        <COM-SYMBOL-GRP head="商品原型(群組)(中台用)"/>
+        <COM-LMT-SYMBOL3 head="控管商品(中台部位限制用)"/>
+        <COM-LMT-RATE head="控管倍數(中台部位限制用)"/>
+        <COM-MARKET-MASK head="盤別遮罩(中台用)"/>
+        <COM-COLD-FLAG head="網路下單冷門商品註記"/>
+        <COM-FLEX-FLAG head="FLEX商品"/>
+        <COM-NEW-DTR-TIME head="停收當沖新單時間"/>
+        <COM-SEQNO head="商品序號"/>
+        <COM-NEW-DTR-TIME-L head="停收當沖新單時間(最後交易日)"/>
+        <COM-PART-ID head="群組ID"/>
+        <FILLER head="FILLER"/>
+    </FUMCOM-R>
+</EnscribeFiles>
